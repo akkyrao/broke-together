@@ -1,0 +1,917 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John",
+      "username": "johndoe",
+      "email": "john@example.com",
+      "password": "hashed_password_123"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "username": "sarah_j",
+      "email": "sarah.j@email.com",
+      "password": "hashed_password_456"
+    },
+    {
+      "id": 3,
+      "name": "Mike Chen",
+      "username": "mike_c",
+      "email": "mike.chen@email.com",
+      "password": "hashed_password_789"
+    },
+    {
+      "id": 4,
+      "name": "Test User",
+      "username": "testuser",
+      "email": "testuser@example.com",
+      "password": "$2b$10$gkNDNYscUc1xIBTAlim4wuxOOja3PxyHBPuirf9njXelCKqTIA6Fy",
+      "createdAt": "2025-08-08T06:35:47.849Z"
+    },
+    {
+      "id": 5,
+      "name": "akashyadav",
+      "username": "akashyadav251205",
+      "email": "akashyadav251205@gmail.com",
+      "password": "$2b$10$KeWXqv0JCUttDp/rTiOHLOH5b3kc6BazIoiQQ4BAzk69aHnm36cPi",
+      "createdAt": "2025-08-08T06:36:53.394Z",
+      "phone": "08168855382",
+      "updatedAt": "2025-08-08T09:03:17.779Z"
+    },
+    {
+      "id": 6,
+      "name": "parul",
+      "username": "parul",
+      "email": "parul@gmail.com",
+      "password": "$2b$10$ZdKfF7Iv.batlGIQgQ2P.eABdaiQS2.5pGjjcWNl5A0Z1FPNM6aCu",
+      "createdAt": "2025-08-08T07:33:17.360Z"
+    },
+    {
+      "id": 7,
+      "name": "rtyuilo;",
+      "email": "rtyuilo;@temp.com",
+      "isTemporary": true,
+      "createdAt": "2025-08-08T07:40:57.195Z"
+    },
+    {
+      "id": 8,
+      "name": "yhjko",
+      "email": "yhjko@temp.com",
+      "isTemporary": true,
+      "createdAt": "2025-08-08T07:41:03.594Z"
+    },
+    {
+      "id": 9,
+      "name": "abhi",
+      "username": "abhi",
+      "email": "abhi@gmail.com",
+      "password": "$2b$10$a.RQGbZNAyHevM2dOixQbOQPHKY6IaN9ioRXXN9LYMTxvPYEP1Xqm",
+      "createdAt": "2025-08-08T08:05:01.855Z"
+    },
+    {
+      "id": 10,
+      "name": "parulfhg",
+      "email": "parulfhg@gmail.com",
+      "isTemporary": true,
+      "createdAt": "2025-08-08T09:03:32.493Z"
+    },
+    {
+      "id": 11,
+      "name": "parul",
+      "username": "parul45",
+      "email": "parul45@gmail.com",
+      "password": "$2b$10$5r6TBNmoR8lT1IpgrjmBwe14UmC/drYzFkEb37geMYL7/9C.H4YcS",
+      "createdAt": "2025-08-08T10:22:21.995Z",
+      "phone": "8168855382",
+      "updatedAt": "2025-08-08T10:25:17.883Z",
+      "avatar": "/uploads/profile-pictures/profile-1754648717878-703712648.png"
+    },
+    {
+      "id": 12,
+      "name": "yhjko",
+      "email": "yhjko@gmail.com",
+      "isTemporary": true,
+      "createdAt": "2025-08-08T10:27:14.697Z"
+    },
+    {
+      "id": 13,
+      "name": "Eklavya",
+      "username": "Eklavya",
+      "email": "Eklavya@gmail.com",
+      "password": "$2b$10$tLJsCy46ojdC2htCEipgnO.DivbAWpsM7lP7OfjVUZQDrnkImc7DO",
+      "createdAt": "2025-08-08T10:54:14.252Z",
+      "avatar": "/uploads/profile-pictures/profile-1754650526200-666125083.jpeg",
+      "updatedAt": "2025-08-08T10:58:59.179Z",
+      "phone": "8168855382"
+    },
+    {
+      "id": 14,
+      "name": "akashyadav",
+      "username": "my",
+      "email": "my@gmail.com",
+      "password": "$2b$10$wgmSSWPTQ1wlkAdjertjuuLu4tO//ywm840D0D20EJha63ww/Lgfe",
+      "createdAt": "2025-08-11T04:09:21.601Z"
+    },
+    {
+      "id": 15,
+      "name": "akashyadav",
+      "username": "hello",
+      "email": "hello@gmail.com",
+      "password": "$2b$10$cdYsvYzIzKup7/EOu4TwquCcD5zcNe.m5xl1GGM8zrryi1Hmg2H02",
+      "createdAt": "2025-08-11T07:01:14.432Z",
+      "phone": "08168855382",
+      "updatedAt": "2025-08-11T07:02:09.586Z"
+    },
+    {
+      "id": 16,
+      "name": "patg",
+      "email": "patg@gmail.com",
+      "isTemporary": true,
+      "createdAt": "2025-08-11T07:02:37.180Z"
+    },
+    {
+      "id": 17,
+      "name": "akashyadav",
+      "username": "abhiiii",
+      "email": "abhiiii@gmail.com",
+      "password": "$2b$10$Cwbr4/pwnyx34/RN5H91mumt3lIYPUoHoQDsS72ozTCjmU6K5Pbv6",
+      "createdAt": "2025-08-11T12:28:41.924Z"
+    },
+    {
+      "id": 18,
+      "name": "paokodek",
+      "email": "paokodek@gmail.com",
+      "isTemporary": true,
+      "createdAt": "2025-08-11T12:30:36.623Z"
+    },
+    {
+      "id": 19,
+      "name": "Akash Yadav ",
+      "username": "akkyrao123",
+      "email": "akkyrao123@gmail.com",
+      "password": "$2b$10$svUGIOZIAT.reW/mN37JL.7myeIopKakf77xV5Xu0F9D5DyY296i6",
+      "createdAt": "2025-08-11T15:43:33.858Z"
+    },
+    {
+      "id": 20,
+      "name": "akky",
+      "email": "akky@gmail.com",
+      "isTemporary": true,
+      "createdAt": "2025-08-11T16:48:39.969Z"
+    },
+    {
+      "id": 21,
+      "name": "akkyrao",
+      "email": "akkyrao@gmail.com",
+      "username": "akkyrao",
+      "isPending": true,
+      "createdAt": "2025-08-11T17:08:51.852Z"
+    },
+    {
+      "id": 22,
+      "name": "nidhi",
+      "email": "nidhi@gmail.com",
+      "isTemporary": true,
+      "createdAt": "2025-08-12T05:14:48.980Z"
+    },
+    {
+      "id": 23,
+      "name": "goa",
+      "email": "goa@gmail.com",
+      "isTemporary": true,
+      "createdAt": "2025-08-12T05:24:32.442Z"
+    },
+    {
+      "id": 24,
+      "name": "mji",
+      "email": "mji@gmail.com",
+      "isTemporary": true,
+      "createdAt": "2025-08-12T06:41:34.452Z"
+    },
+    {
+      "id": 25,
+      "name": "parul12",
+      "email": "parul12@gmail.com",
+      "isTemporary": true,
+      "createdAt": "2025-08-12T06:56:55.043Z"
+    },
+    {
+      "id": 26,
+      "name": "kiran",
+      "username": "kiran",
+      "email": "kiran@gmail.com",
+      "password": "$2b$10$JwkkeZqKTS85Kh06hBVujupbgGkA3ChgJUec8lYg6o90WGSpr4N.C",
+      "createdAt": "2025-08-12T07:15:21.731Z"
+    },
+    {
+      "id": 27,
+      "name": "123",
+      "email": "123@gmail.com",
+      "isTemporary": true,
+      "createdAt": "2025-08-12T07:39:48.947Z"
+    },
+    {
+      "id": 28,
+      "name": "Akash Yadav",
+      "username": "akkyrao",
+      "email": "akkyrao@2005gmail.com",
+      "password": "$2b$10$kzsLPQGQwfi5NSFRFhqmiehhxboCvf8qkIbmz/2/THxLZDsgX9rwm",
+      "createdAt": "2025-12-18T11:42:08.265Z"
+    },
+    {
+      "id": 29,
+      "name": "Akash Yadav",
+      "username": "akash.yadav.23cse",
+      "email": "akash.yadav.23cse@bmu.edu.in",
+      "password": "$2b$10$L1oSyerDLSWvZ99GI1PfHub1y8aIiM8h9zXiqFIf2B/CD5V0Ks/TK",
+      "createdAt": "2026-03-05T11:46:57.663Z"
+    },
+    {
+      "id": 30,
+      "name": "Asha yadav",
+      "username": "ashayadav21585",
+      "email": "ashayadav21585@gmail.com",
+      "password": "$2b$10$8JoQGPMMas2yQYFhGUCrIel5GRG6q7X2hLwbsHBd7LFsbveSVbft6",
+      "createdAt": "2026-07-21T03:31:34.366Z"
+    },
+    {
+      "id": 31,
+      "name": "Asha yadav",
+      "username": "Ashayadav21585",
+      "email": "Ashayadav21585@gmail.com",
+      "password": "$2b$10$BkVH3hGXw6he5TnBts8gPuvd/SkdvXaIk9wMDhSX9zt.es6KQW7Eu",
+      "createdAt": "2026-07-21T03:33:33.161Z"
+    },
+    {
+      "id": 32,
+      "name": "asjj.yadav.23cse",
+      "email": "asjj.yadav.23cse@bmu.edu.in",
+      "isTemporary": true,
+      "createdAt": "2026-07-21T03:34:33.197Z"
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "userId": 6,
+      "friendId": 7,
+      "balance": 45.75,
+      "createdAt": "2025-08-08T07:40:57.195Z"
+    },
+    {
+      "id": 2,
+      "userId": 7,
+      "friendId": 6,
+      "balance": -45.75,
+      "createdAt": "2025-08-08T07:40:57.195Z"
+    },
+    {
+      "id": 3,
+      "userId": 6,
+      "friendId": 8,
+      "balance": -23.5,
+      "createdAt": "2025-08-08T07:41:03.594Z"
+    },
+    {
+      "id": 4,
+      "userId": 8,
+      "friendId": 6,
+      "balance": 23.5,
+      "createdAt": "2025-08-08T07:41:03.594Z"
+    },
+    {
+      "id": 7,
+      "userId": 6,
+      "friendId": 5,
+      "balance": 150,
+      "createdAt": "2025-08-08T07:58:13.133Z"
+    },
+    {
+      "id": 8,
+      "userId": 5,
+      "friendId": 6,
+      "balance": -150,
+      "createdAt": "2025-08-08T07:58:13.133Z"
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "friendId": 6,
+      "balance": -75,
+      "createdAt": "2025-08-08T08:07:39.889Z"
+    },
+    {
+      "id": 10,
+      "userId": 6,
+      "friendId": 9,
+      "balance": 75,
+      "createdAt": "2025-08-08T08:07:39.889Z"
+    },
+    {
+      "id": 11,
+      "userId": 5,
+      "friendId": 10,
+      "balance": 0,
+      "createdAt": "2025-08-08T09:03:32.493Z"
+    },
+    {
+      "id": 12,
+      "userId": 10,
+      "friendId": 5,
+      "balance": 0,
+      "createdAt": "2025-08-08T09:03:32.493Z"
+    },
+    {
+      "id": 13,
+      "userId": 11,
+      "friendId": 6,
+      "balance": -32.25,
+      "createdAt": "2025-08-08T10:27:03.453Z"
+    },
+    {
+      "id": 14,
+      "userId": 6,
+      "friendId": 11,
+      "balance": 32.25,
+      "createdAt": "2025-08-08T10:27:03.453Z"
+    },
+    {
+      "id": 15,
+      "userId": 11,
+      "friendId": 12,
+      "balance": 18.5,
+      "createdAt": "2025-08-08T10:27:14.697Z"
+    },
+    {
+      "id": 16,
+      "userId": 12,
+      "friendId": 11,
+      "balance": -18.5,
+      "createdAt": "2025-08-08T10:27:14.697Z"
+    },
+    {
+      "id": 17,
+      "userId": 15,
+      "friendId": 6,
+      "balance": -67.8,
+      "createdAt": "2025-08-11T07:02:22.701Z"
+    },
+    {
+      "id": 18,
+      "userId": 6,
+      "friendId": 15,
+      "balance": 67.8,
+      "createdAt": "2025-08-11T07:02:22.701Z"
+    },
+    {
+      "id": 19,
+      "userId": 15,
+      "friendId": 16,
+      "balance": 0,
+      "createdAt": "2025-08-11T07:02:37.180Z"
+    },
+    {
+      "id": 20,
+      "userId": 16,
+      "friendId": 15,
+      "balance": 0,
+      "createdAt": "2025-08-11T07:02:37.180Z"
+    },
+    {
+      "id": 21,
+      "userId": 17,
+      "friendId": 18,
+      "balance": 25.4,
+      "createdAt": "2025-08-11T12:30:36.623Z"
+    },
+    {
+      "id": 22,
+      "userId": 18,
+      "friendId": 17,
+      "balance": -25.4,
+      "createdAt": "2025-08-11T12:30:36.623Z"
+    },
+    {
+      "id": 23,
+      "userId": 17,
+      "friendId": 20,
+      "balance": -41.9,
+      "createdAt": "2025-08-11T16:48:39.969Z"
+    },
+    {
+      "id": 24,
+      "userId": 20,
+      "friendId": 17,
+      "balance": 41.9,
+      "createdAt": "2025-08-11T16:48:39.969Z"
+    },
+    {
+      "id": 25,
+      "userId": 17,
+      "friendId": 12,
+      "balance": 15.75,
+      "createdAt": "2025-08-11T16:48:47.026Z"
+    },
+    {
+      "id": 26,
+      "userId": 12,
+      "friendId": 17,
+      "balance": -15.75,
+      "createdAt": "2025-08-11T16:48:47.026Z"
+    },
+    {
+      "id": 27,
+      "userId": 17,
+      "friendId": 21,
+      "balance": 28.6,
+      "createdAt": "2025-08-11T17:08:51.852Z"
+    },
+    {
+      "id": 28,
+      "userId": 21,
+      "friendId": 17,
+      "balance": -28.6,
+      "createdAt": "2025-08-11T17:08:51.852Z"
+    },
+    {
+      "id": 29,
+      "userId": 17,
+      "friendId": 6,
+      "balance": 0,
+      "createdAt": "2025-08-12T05:10:36.085Z"
+    },
+    {
+      "id": 30,
+      "userId": 6,
+      "friendId": 17,
+      "balance": 0,
+      "createdAt": "2025-08-12T05:10:36.085Z"
+    },
+    {
+      "id": 31,
+      "userId": 17,
+      "friendId": 5,
+      "balance": 0,
+      "createdAt": "2025-08-12T05:11:18.925Z"
+    },
+    {
+      "id": 32,
+      "userId": 5,
+      "friendId": 17,
+      "balance": 0,
+      "createdAt": "2025-08-12T05:11:18.925Z"
+    },
+    {
+      "id": 33,
+      "userId": 17,
+      "friendId": 22,
+      "balance": 0,
+      "createdAt": "2025-08-12T05:14:48.980Z"
+    },
+    {
+      "id": 34,
+      "userId": 22,
+      "friendId": 17,
+      "balance": 0,
+      "createdAt": "2025-08-12T05:14:48.980Z"
+    },
+    {
+      "id": 35,
+      "userId": 17,
+      "friendId": 9,
+      "balance": 0,
+      "createdAt": "2025-08-12T05:15:23.724Z"
+    },
+    {
+      "id": 36,
+      "userId": 9,
+      "friendId": 17,
+      "balance": 0,
+      "createdAt": "2025-08-12T05:15:23.724Z"
+    },
+    {
+      "id": 37,
+      "userId": 17,
+      "friendId": 1,
+      "balance": 0,
+      "createdAt": "2025-08-12T05:19:05.289Z"
+    },
+    {
+      "id": 38,
+      "userId": 1,
+      "friendId": 17,
+      "balance": 0,
+      "createdAt": "2025-08-12T05:19:05.290Z"
+    },
+    {
+      "id": 39,
+      "userId": 17,
+      "friendId": 23,
+      "balance": 0,
+      "createdAt": "2025-08-12T05:24:32.442Z"
+    },
+    {
+      "id": 40,
+      "userId": 23,
+      "friendId": 17,
+      "balance": 0,
+      "createdAt": "2025-08-12T05:24:32.442Z"
+    },
+    {
+      "id": 41,
+      "userId": 17,
+      "friendId": 24,
+      "balance": 0,
+      "createdAt": "2025-08-12T06:41:34.452Z"
+    },
+    {
+      "id": 42,
+      "userId": 24,
+      "friendId": 17,
+      "balance": 0,
+      "createdAt": "2025-08-12T06:41:34.452Z"
+    },
+    {
+      "id": 43,
+      "userId": 17,
+      "friendId": 25,
+      "balance": 0,
+      "createdAt": "2025-08-12T06:56:55.043Z"
+    },
+    {
+      "id": 44,
+      "userId": 25,
+      "friendId": 17,
+      "balance": 0,
+      "createdAt": "2025-08-12T06:56:55.043Z"
+    },
+    {
+      "id": 45,
+      "userId": 26,
+      "friendId": 6,
+      "balance": 0,
+      "createdAt": "2025-08-12T07:39:19.403Z"
+    },
+    {
+      "id": 46,
+      "userId": 6,
+      "friendId": 26,
+      "balance": 0,
+      "createdAt": "2025-08-12T07:39:19.403Z"
+    },
+    {
+      "id": 47,
+      "userId": 26,
+      "friendId": 5,
+      "balance": 0,
+      "createdAt": "2025-08-12T07:39:26.078Z"
+    },
+    {
+      "id": 48,
+      "userId": 5,
+      "friendId": 26,
+      "balance": 0,
+      "createdAt": "2025-08-12T07:39:26.078Z"
+    },
+    {
+      "id": 49,
+      "userId": 26,
+      "friendId": 27,
+      "balance": 0,
+      "createdAt": "2025-08-12T07:39:48.947Z"
+    },
+    {
+      "id": 50,
+      "userId": 27,
+      "friendId": 26,
+      "balance": 0,
+      "createdAt": "2025-08-12T07:39:48.947Z"
+    },
+    {
+      "id": 51,
+      "userId": 31,
+      "friendId": 29,
+      "balance": 0,
+      "createdAt": "2026-07-21T03:34:17.598Z"
+    },
+    {
+      "id": 52,
+      "userId": 29,
+      "friendId": 31,
+      "balance": 0,
+      "createdAt": "2026-07-21T03:34:17.598Z"
+    },
+    {
+      "id": 53,
+      "userId": 31,
+      "friendId": 32,
+      "balance": 0,
+      "createdAt": "2026-07-21T03:34:33.197Z"
+    },
+    {
+      "id": 54,
+      "userId": 32,
+      "friendId": 31,
+      "balance": 0,
+      "createdAt": "2026-07-21T03:34:33.197Z"
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "goa",
+      "description": "ga",
+      "icon": "👥",
+      "createdBy": 6,
+      "members": [
+        {
+          "userId": 6,
+          "role": "admin",
+          "joinedAt": "2025-08-08T07:42:56.251Z"
+        }
+      ],
+      "totalSpent": 0,
+      "createdAt": "2025-08-08T07:42:56.251Z"
+    },
+    {
+      "id": 2,
+      "name": "akpp",
+      "description": "huiifhheifcewj",
+      "icon": "🏠",
+      "createdBy": 9,
+      "members": [
+        {
+          "userId": 9,
+          "role": "admin",
+          "joinedAt": "2025-08-08T08:06:36.276Z"
+        }
+      ],
+      "totalSpent": 0,
+      "createdAt": "2025-08-08T08:06:36.276Z"
+    },
+    {
+      "id": 3,
+      "name": "goa",
+      "description": "gi",
+      "icon": "👥",
+      "createdBy": 5,
+      "members": [
+        {
+          "userId": 5,
+          "role": "admin",
+          "joinedAt": "2025-08-08T09:04:05.375Z"
+        },
+        {
+          "userId": 2,
+          "role": "member",
+          "joinedAt": "2025-08-08T09:04:05.375Z"
+        },
+        {
+          "userId": 3,
+          "role": "member",
+          "joinedAt": "2025-08-08T09:04:05.375Z"
+        }
+      ],
+      "totalSpent": 0,
+      "createdAt": "2025-08-08T09:04:05.375Z"
+    },
+    {
+      "id": 4,
+      "name": "tgyhuj",
+      "description": "tfgh",
+      "icon": "👥",
+      "createdBy": 11,
+      "members": [
+        {
+          "userId": 11,
+          "role": "admin",
+          "joinedAt": "2025-08-08T10:27:31.006Z"
+        },
+        {
+          "userId": 6,
+          "role": "member",
+          "joinedAt": "2025-08-08T10:27:31.006Z"
+        },
+        {
+          "userId": 12,
+          "role": "member",
+          "joinedAt": "2025-08-08T10:27:31.006Z"
+        }
+      ],
+      "totalSpent": 0,
+      "createdAt": "2025-08-08T10:27:31.006Z"
+    },
+    {
+      "id": 5,
+      "name": "goa",
+      "description": "travelling",
+      "icon": "✈️",
+      "createdBy": 13,
+      "members": [
+        {
+          "userId": 13,
+          "role": "admin",
+          "joinedAt": "2025-08-08T10:58:18.051Z"
+        }
+      ],
+      "totalSpent": 0,
+      "createdAt": "2025-08-08T10:58:18.051Z"
+    },
+    {
+      "id": 6,
+      "name": "honey",
+      "description": "rtyuuh",
+      "icon": "👥",
+      "createdBy": 17,
+      "members": [
+        {
+          "userId": 17,
+          "role": "admin",
+          "joinedAt": "2025-08-12T05:13:51.103Z"
+        },
+        {
+          "userId": 18,
+          "role": "member",
+          "joinedAt": "2025-08-12T05:13:51.103Z"
+        }
+      ],
+      "totalSpent": 0,
+      "createdAt": "2025-08-12T05:13:51.103Z"
+    },
+    {
+      "id": 7,
+      "name": "rtyujhfj",
+      "description": "yh",
+      "icon": "✈️",
+      "createdBy": 26,
+      "members": [
+        {
+          "userId": 26,
+          "role": "admin",
+          "joinedAt": "2025-08-12T07:45:50.355Z"
+        }
+      ],
+      "totalSpent": 0,
+      "createdAt": "2025-08-12T07:45:50.355Z"
+    }
+  ],
+  "personalExpenses": [
+    {
+      "id": 1,
+      "userId": 6,
+      "description": "yuyjn",
+      "amount": 78990,
+      "category": "food",
+      "date": "2025-08-08",
+      "notes": "",
+      "createdAt": "2025-08-08T07:59:35.217Z"
+    },
+    {
+      "id": 2,
+      "userId": 6,
+      "description": "eded",
+      "amount": 5667,
+      "category": "shopping",
+      "date": "2025-08-08",
+      "notes": "",
+      "createdAt": "2025-08-08T07:59:51.993Z",
+      "updatedAt": "2025-08-08T08:00:47.798Z"
+    },
+    {
+      "id": 3,
+      "userId": 9,
+      "description": "paokodek",
+      "amount": 678866.99,
+      "category": "food",
+      "date": "2025-08-08",
+      "notes": "",
+      "createdAt": "2025-08-08T08:06:03.540Z",
+      "updatedAt": "2025-08-08T08:25:48.483Z"
+    },
+    {
+      "id": 4,
+      "userId": 5,
+      "description": "eded",
+      "amount": 345673,
+      "category": "food",
+      "date": "2025-08-08",
+      "notes": "",
+      "createdAt": "2025-08-08T09:04:22.805Z"
+    },
+    {
+      "id": 5,
+      "userId": 11,
+      "description": "parul",
+      "amount": 1234567877,
+      "category": "food",
+      "date": "2025-08-08",
+      "notes": "",
+      "createdAt": "2025-08-08T10:25:54.875Z",
+      "updatedAt": "2025-08-08T10:26:16.409Z"
+    },
+    {
+      "id": 6,
+      "userId": 13,
+      "description": "goa",
+      "amount": 2345678,
+      "category": "food",
+      "date": "2025-08-08",
+      "notes": "",
+      "createdAt": "2025-08-08T11:31:02.859Z"
+    },
+    {
+      "id": 7,
+      "userId": 13,
+      "description": "tyrtuy",
+      "amount": 78,
+      "category": "food",
+      "date": "2025-08-08",
+      "notes": "",
+      "createdAt": "2025-08-08T11:53:15.675Z"
+    },
+    {
+      "id": 8,
+      "userId": 15,
+      "description": "dfgh",
+      "amount": 234567,
+      "category": "health",
+      "date": "2025-08-11",
+      "notes": "",
+      "createdAt": "2025-08-11T07:14:16.268Z"
+    },
+    {
+      "id": 11,
+      "userId": 17,
+      "description": "rtyu",
+      "amount": 1000,
+      "category": "Shopping",
+      "date": "2025-08-12",
+      "notes": "",
+      "createdAt": "2025-08-12T05:32:50.642Z",
+      "updatedAt": "2025-08-12T07:13:39.903Z"
+    },
+    {
+      "id": 12,
+      "userId": 17,
+      "description": "yii",
+      "amount": 500,
+      "category": "food",
+      "date": "2025-08-12",
+      "notes": "",
+      "createdAt": "2025-08-12T07:00:18.566Z"
+    },
+    {
+      "id": 13,
+      "userId": 26,
+      "description": "dimsum",
+      "amount": 500,
+      "category": "food",
+      "date": "2025-08-12",
+      "notes": "",
+      "createdAt": "2025-08-12T07:17:15.613Z"
+    },
+    {
+      "id": 14,
+      "userId": 26,
+      "description": "food",
+      "amount": 600,
+      "category": "shopping",
+      "date": "2025-08-12",
+      "notes": "",
+      "createdAt": "2025-08-12T07:17:40.296Z"
+    }
+  ],
+  "blockedFriends": [
+    {
+      "id": 1,
+      "userId": 17,
+      "friendId": 20,
+      "createdAt": "2025-08-12T05:08:26.807Z"
+    },
+    {
+      "id": 2,
+      "userId": 17,
+      "friendId": 12,
+      "createdAt": "2025-08-12T05:12:22.406Z"
+    },
+    {
+      "id": 3,
+      "userId": 17,
+      "friendId": 21,
+      "createdAt": "2025-08-12T05:12:25.992Z"
+    },
+    {
+      "id": 4,
+      "userId": 17,
+      "friendId": 6,
+      "createdAt": "2025-08-12T05:12:29.038Z"
+    },
+    {
+      "id": 5,
+      "userId": 17,
+      "friendId": 5,
+      "createdAt": "2025-08-12T05:12:32.005Z"
+    }
+  ]
+}

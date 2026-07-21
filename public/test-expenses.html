@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Personal Expenses Loading</title>
+</head>
+<body>
+    <h1>Test Personal Expenses Loading</h1>
+    <div id="results"></div>
+    
+    <script>
+        async function testExpenseLoading() {
+            const resultsDiv = document.getElementById('results');
+            
+            try {
+                // Test loading data.json
+                const response = await fetch('/data.json');
+                const data = await response.json();
+                
+                resultsDiv.innerHTML += '<h2>Data.json loaded successfully</h2>';
+                resultsDiv.innerHTML += '<p>Personal expenses count: ' + (data.personalExpenses ? data.personalExpenses.length : 0) + '</p>';
+                
+                // Test current user from localStorage
+                const currentUser = localStorage.getItem('currentUser');
+                if (currentUser) {
+                    const user = JSON.parse(currentUser);
+                    resultsDiv.innerHTML += '<h2>Current User</h2>';
+                    resultsDiv.innerHTML += '<p>User ID: ' + user.id + '</p>';
+                    resultsDiv.innerHTML += '<p>User Name: ' + user.name + '</p>';
+                    
+                    // Filter expenses for current user
+                    const userExpenses = data.personalExpenses.filter(expense => expense.userId === user.id);
+                    resultsDiv.innerHTML += '<h2>User Expenses</h2>';
+                    resultsDiv.innerHTML += '<p>Count: ' + userExpenses.length + '</p>';
+                    
+                    userExpenses.forEach((expense, index) => {
+                        resultsDiv.innerHTML += '<div style="border: 1px solid #ccc; margin: 5px; padding: 10px;">';
+                        resultsDiv.innerHTML += '<strong>Expense ' + (index + 1) + ':</strong><br>';
+                        resultsDiv.innerHTML += 'ID: ' + expense.id + '<br>';
+                        resultsDiv.innerHTML += 'Description: "' + expense.description + '"<br>';
+                        resultsDiv.innerHTML += 'Amount: ' + expense.amount + '<br>';
+                        resultsDiv.innerHTML += 'Category: ' + expense.category + '<br>';
+                        resultsDiv.innerHTML += 'Date: ' + expense.date + '<br>';
+                        resultsDiv.innerHTML += '</div>';
+                    });
+                } else {
+                    resultsDiv.innerHTML += '<h2>No Current User Found</h2>';
+                    resultsDiv.innerHTML += '<p>Please log in first</p>';
+                }
+                
+            } catch (error) {
+                resultsDiv.innerHTML += '<h2>Error</h2>';
+                resultsDiv.innerHTML += '<p style="color: red;">' + error.message + '</p>';
+            }
+        }
+        
+        // Run test when page loads
+        testExpenseLoading();
+    </script>
+</body>
+</html>
