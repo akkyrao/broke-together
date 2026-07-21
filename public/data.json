@@ -249,6 +249,22 @@
       "email": "asjj.yadav.23cse@bmu.edu.in",
       "isTemporary": true,
       "createdAt": "2026-07-21T03:34:33.197Z"
+    },
+    {
+      "id": 33,
+      "name": "Ravi",
+      "username": "ravi46",
+      "email": "ravi46@gmail.com",
+      "password": "$2b$10$TyEZlXka7155.uu6x7.ky.aGfyuPIXY4qGIzOP2Kqs8Z/BbzBblpS",
+      "createdAt": "2026-07-21T10:35:38.729Z"
+    },
+    {
+      "id": 34,
+      "name": "Akash Yadav",
+      "username": "akash",
+      "email": "akash@gmail.com",
+      "password": "$2b$10$OwIjJBY7lATsF.o5t9jd6.GqEL3AvMz4QWL11kYXRL6V.2and400i",
+      "createdAt": "2026-07-21T10:55:32.831Z"
     }
   ],
   "friends": [

@@ -95,14 +95,32 @@ npm start
 
 ## 📸 Screenshots
 
-> Screenshots will be added soon.
+### Splash Screen
+![Splash Screen](screenshots/splash.png)
 
-- Login Page
-- Dashboard
-- Friends
-- Groups
-- Add Expense
-- Profile
+### Login
+![Login](screenshots/login.png)
+
+### Sign Up
+![Sign Up](screenshots/signup.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Friends
+![Friends](screenshots/friends.png)
+
+### Groups
+![Groups](screenshots/groups.png)
+
+### Add Expense
+![Add Expense](screenshots/expense.png)
+
+### Profile
+![Profile](screenshots/profile.png)
+
+### Settings
+![Settings](screenshots/settings.png)
 
 ---
 
