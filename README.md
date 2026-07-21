@@ -1,22 +1,22 @@
 # 💸 Broke Together
 
-A full-stack MERN expense splitting application that helps friends and groups manage shared expenses, split bills fairly, and settle balances with ease. Whether it's a trip, dinner, rent, or daily expenses, Broke Together makes tracking shared finances simple and transparent.
+A full-stack **MERN Expense Splitting Application** that helps friends and groups manage shared expenses, split bills fairly, and settle balances with ease. Whether it's a trip, dinner, rent, or daily expenses, **Broke Together** makes tracking shared finances simple, transparent, and hassle-free.
 
 ---
 
 ## ✨ Features
 
-- 🔐 User Authentication (Login & Signup)
-- 📊 Dashboard with expense overview
-- 💸 Add and manage shared expenses
-- 👥 Friend management
-- 👨‍👩‍👧‍👦 Group creation and management
-- 💰 Split expenses equally or custom
-- ✅ Settle balances between friends
-- 🔔 Notifications and activity updates
-- 👤 User profile management
-- 🌙 Dark mode support
-- 📱 Fully responsive design
+- 🔐 Secure User Authentication (Login & Signup)
+- 📊 Interactive Dashboard
+- 💸 Add & Manage Shared Expenses
+- 👥 Friend Management
+- 👨‍👩‍👧‍👦 Group Creation & Management
+- 💰 Equal & Custom Expense Splitting
+- ✅ Settle Balances
+- 🔔 Notifications & Activity Updates
+- 👤 User Profile Management
+- 🌙 Dark Mode Support
+- 📱 Fully Responsive Design
 
 ---
 
@@ -35,7 +35,7 @@ A full-stack MERN expense splitting application that helps friends and groups ma
 ### Database
 - MongoDB
 
-### Tools & Technologies
+### Tools
 - Git
 - GitHub
 - VS Code
@@ -49,6 +49,7 @@ A full-stack MERN expense splitting application that helps friends and groups ma
 broke-together/
 │
 ├── public/
+├── screenshots/
 ├── src/
 │   ├── components/
 │   ├── pages/
@@ -67,25 +68,25 @@ broke-together/
 
 ## 🚀 Installation
 
-### Clone the repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/akkyrao/broke-together.git
 ```
 
-### Navigate to the project
+### Navigate to the Project
 
 ```bash
 cd broke-together
 ```
 
-### Install dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Start the application
+### Start the Application
 
 ```bash
 npm start
@@ -93,60 +94,85 @@ npm start
 
 ---
 
-## 📸 Screenshots
+# 📸 Application Screenshots
 
-### Splash Screen
+## 🚀 Splash Screen
+
 ![Splash Screen](screenshots/splash.png)
 
-### Login
+---
+
+## 🔐 Login Page
+
 ![Login](screenshots/login.png)
 
-### Sign Up
+---
+
+## 📝 Sign Up Page
+
 ![Sign Up](screenshots/signup.png)
 
-### Dashboard
+---
+
+## 📊 Dashboard
+
 ![Dashboard](screenshots/dashboard.png)
 
-### Friends
+---
+
+## 👥 Friends
+
 ![Friends](screenshots/friends.png)
 
-### Groups
+---
+
+## 👨‍👩‍👧‍👦 Groups
+
 ![Groups](screenshots/groups.png)
 
-### Add Expense
+---
+
+## 💸 Add Expense
+
 ![Add Expense](screenshots/expense.png)
 
-### Profile
+---
+
+## 👤 Profile
+
 ![Profile](screenshots/profile.png)
 
-### Settings
+---
+
+## ⚙️ Settings
+
 ![Settings](screenshots/settings.png)
 
 ---
 
 ## 🎯 Key Features
 
-- Track personal and group expenses
-- Create and manage groups
-- Add friends
-- Split expenses easily
-- View balances instantly
-- Settle payments
-- Responsive user interface
-- Modern dashboard
-- Dark mode support
+- Track Personal & Group Expenses
+- Create & Manage Groups
+- Add Friends
+- Split Expenses Instantly
+- View Balances
+- Settle Payments
+- Responsive User Interface
+- Modern Dashboard
+- Dark Mode
 
 ---
 
 ## 🚀 Future Enhancements
 
-- 🤖 AI-based expense insights
-- 📷 OCR receipt scanning
-- 💳 UPI payment integration
-- 📈 Monthly analytics
-- 📄 PDF expense reports
-- 🔔 Push notifications
-- 🌍 Multi-currency support
+- 🤖 AI-Based Expense Insights
+- 📷 OCR Receipt Scanner
+- 💳 UPI Payment Integration
+- 📈 Monthly Analytics
+- 📄 PDF Expense Reports
+- 🔔 Push Notifications
+- 🌍 Multi-Currency Support
 
 ---
 
@@ -154,18 +180,16 @@ npm start
 
 Contributions are welcome!
 
-If you'd like to improve this project:
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Open a Pull Request
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Open a Pull Request.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
@@ -173,19 +197,23 @@ This project is licensed under the MIT License.
 
 **Akash Yadav**
 
-B.Tech CSE (Data Science & Artificial Intelligence)  
-BML Munjal University
+🎓 B.Tech CSE (Data Science & Artificial Intelligence)  
+🏫 BML Munjal University
 
-GitHub: https://github.com/akkyrao
+🔗 GitHub: https://github.com/akkyrao
 
 ---
 
 ## ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you found this project helpful, consider giving it a ⭐ on GitHub.
 
-It helps others discover the project and supports future development.
+It helps others discover the project and motivates future development.
 
 ---
 
-Made with ❤️ by Akash Yadav
+<div align="center">
+
+### ❤️ Made with Love by Akash Yadav ❤️
+
+</div>
